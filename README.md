@@ -110,3 +110,16 @@ CSS
   color: #FFFFFF;
   text-decoration: none;
 }
+-------
+Tutorial github e git
+
+no github:
+cria o repositorio inserindo nome e descrição apenas
+escolhe a segunda opção de conexão 
+
+volta no vs code:
+roda comando git init  (ele serve para inicializar o git no meu projeto)
+pego o link git add remote (link do repositorio) - serve para linkar o projeto que está no meu computador com o link do github
+git add . (adicionar todas as mudanças que fiz)
+git commit -m "texto com nome da versao que descreve as mudancas que vc fez no código''
+git push origin main

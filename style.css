@@ -1,17 +1,18 @@
 * {
     box-sizing: border-box;
-    margin: auto
+    margin: 0;
 }
 
 #menu {
     background-color: #be89cb;
-    width: 1000px;
-             
-    }
+
+}
+
 #menu ul {
     display: flex;
     padding: 30px;
     justify-content: right;
+    align-items: flex-end;
     gap: 150px;
 }
 
@@ -21,8 +22,122 @@
 
 #menu ul li a {
     font-family: 'Open Sans', sans-serif;
-    color:white;
+    color: white;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.foto {
+    width: 150px;
+    height: auto;
+    border-radius: 800px;
+    border: 50%;
+    margin-top: 3%;
+    margin-left: 45%;
+    
+}
+
+#perfil {
+    background-color: #EDEAEA;
+    height: 579px;
+    margin-bottom: 120px;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+h2 {
+    color: #FF4DBC;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2%;
+    margin-left: 44%;
+}
+
+h3 {
+    color: #C5C0C0;
+    font-family: 'Open Sans', sans-serif;
+    align-content: center;
+    margin-left: 44%;
+}
+
+p {
+    color: black;
+    font-family: font-family: 'ABeeZee', sans-serif;font-family: 'Poppins', sans-serif;
+    width: 650px;
+    margin-bottom: 70px;
+    font-weight: 490;       
+}
+
+#formação {
+    background-color: #f1efef;
+    height: 620px;
+    margin-top: -120px;    
+}
+#formação h2 
+ {
+    color:#FF4DBC;
+     margin-left: 25%;
+     margin-top: 180;    
+}
+#formação h3 
+ {
+    color:#9c979a;
+     margin-left: 30%;
+     margin-top: 30px;    
+}
+#formação p 
+ {
+    color:#000000;
+     margin-left: 30%;
+     margin-top: 30px; 
+     align-content: center;
+     font-size: 16px;
+}
+#formação a {
+    margin-left: 30%;
+     margin-top: 80px; 
+}
+#portfolio {
+background-color: #EDEAEA;
+height: 620px;
+margin-top: -30px; 
+}
+#portfolio h2 
+ {
+    color:#FF4DBC;
+     margin-left: 25%;
+     margin-top: 210;    
+}
+#portfolio h3{
+    color:#661E4B;
+     margin-left: 30%;
+     margin-top: 30px; 
+}
+#portfolio p{
+    color:#000000;
+     margin-left: 30%;
+     margin-top: 10px; 
+     margin-bottom: 0;
+     align-content: center; 
+}
+#portfolio a {
+    margin-left: 30%;
+    margin-top: 10px ; 
+}
+#contato {
+    background-color: #BE89CB;
+    height: 198px;
+    margin-bottom: 12px;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#contato a {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;  
+    margin-bottom: 50%;
 }
